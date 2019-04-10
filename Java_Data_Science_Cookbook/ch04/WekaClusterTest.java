@@ -23,7 +23,6 @@ public class WekaClusterTest {
 		{
 			source = new DataSource(arffInput);
 			cpu = source.getDataSet();
-			cpu.setClassIndex(cpu.numAttributes() -1);
 		}
 		catch(Exception e)
 		{
